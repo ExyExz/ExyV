@@ -1,0 +1,24 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("ExyHUB", "Ocean")
+local Tab = Window:NewTab("AutoFarm")
+local Section = Tab:NewSection("BABFT HUB BY EXY")
+
+Section:NewButton("AutoFarm", "70k-100k/Hour", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ExyXyz/e/main/E"))()
+end)
+
+Section:NewButton("NeonBlock", "50 Neonblock/20 minute", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/URPjGNv5"))()
+end)
+
+Section:NewButton("ToyBlock & CoalBlock", "You Need 700+ Gold To Make It Work", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/me0n4mu8"))()
+end)
+
+Section:NewButton("Fight Fabbi The Duck Quest", "You can get bread from that quest", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/hJET5qEd"))()
+end)
+
+Section:NewKeybind("To Hide The UI =", "Just A Keybind Dumbass", Enum.KeyCode.LeftShift, function()
+	Library:ToggleUI()
+end)
