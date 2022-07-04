@@ -1,0 +1,140 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("BABFT")
+
+local KillingCheats = PhantomForcesWindow:NewSection("AutoFarm")
+
+KillingCheats:CreateButton("AutoFarm ON", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/win62j6y"))()
+
+end)
+
+KillingCheats:CreateButton("AutoFarm OFF", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/C3VeHDwD"))()
+
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("Change Character")
+
+KillingCheats:CreateButton("Fox", function()
+
+    local A_1 = "FoxCharacter"
+
+local Event = game:GetService("Workspace").ChangeCharacter
+
+Event:FireServer(A_1)
+
+end) 
+
+KillingCheats:CreateButton("Chicken", function()
+
+    local A_1 = "ChickenCharacter"
+
+local Event = game:GetService("Workspace").ChangeCharacter
+
+Event:FireServer(A_1)
+
+end) 
+
+KillingCheats:CreateButton("Penguin", function()
+
+    local A_1 = "PenguinCharacter"
+
+local Event = game:GetService("Workspace").ChangeCharacter
+
+Event:FireServer(A_1)
+
+end) 
+
+local KillingCheats = PhantomForcesWindow:NewSection("Others")
+
+KillingCheats:CreateButton("Inf Jump", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/d0kBNTLE"))()
+
+end) 
+
+KillingCheats:CreateButton("Low Gravity", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/iS8zgJ9V"))()
+
+end) 
+
+KillingCheats:CreateButton("WalkSpeed", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/yCCj6xRP"))()
+
+end) 
+
+local PhantomForcesWindow = Library:NewWindow("Free Block")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Free Block")
+
+KillingCheats:CreateButton("Neonblock ON", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/0hp7dfch"))()
+
+end)
+
+KillingCheats:CreateButton("Neonblock OFF", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/cz0YC55e"))()
+
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("Inf Toy Block")
+
+KillingCheats:CreateButton("Inf ToyBlock ON", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/ECHKNycp"))()
+
+end)
+
+KillingCheats:CreateButton("Inf ToyBlock OFF", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/cgSLBcCU"))()
+
+end)
+
+local PhantomForcesWindow = Library:NewWindow("Old Quest")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Spawn")
+
+KillingCheats:CreateButton("Fabbi The Duck", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/hJET5qEd"))()
+
+end)
+
+KillingCheats:CreateButton("GingerBread", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/PXrLiws7"))()
+
+end)
+
+local PhantomForcesWindow = Library:NewWindow("CREDITS")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Exy#7456")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Wizard Lib")
+
+game.StarterGui:SetCore("SendNotification",  {
+
+ Title = "Exy";
+
+ Text = "Exy Is Handsome Man, Exy Sangat Gantenk";
+
+ Icon = "";
+
+ Duration = 999999999999;
+
+ Button1 = "AGREE";
+
+ Button2 = "SETUJU";
+
+ Callback = NotificationBindable;
+
+})
+
