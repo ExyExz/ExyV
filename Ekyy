@@ -4,15 +4,17 @@ local PhantomForcesWindow = Library:NewWindow("BABFT")
 
 local KillingCheats = PhantomForcesWindow:NewSection("AutoFarm")
 
-KillingCheats:CreateButton("AutoFarm ON", function()
+KillingCheats:CreateToggle("AutoFarm", function(state)
 
-loadstring(game:HttpGet("https://pastebin.com/raw/win62j6y"))()
+    if state then
 
-end)
+        loadstring(game:HttpGet("https://pastebin.com/raw/win62j6y"))()
 
-KillingCheats:CreateButton("AutoFarm OFF", function()
+    else
 
-loadstring(game:HttpGet("https://pastebin.com/raw/C3VeHDwD"))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/C3VeHDwD"))()
+
+    end
 
 end)
 
@@ -72,29 +74,31 @@ local PhantomForcesWindow = Library:NewWindow("Free Block")
 
 local KillingCheats = PhantomForcesWindow:NewSection("Free Block")
 
-KillingCheats:CreateButton("Neonblock ON", function()
+KillingCheats:CreateToggle("NeonBlock", function(state)
 
-loadstring(game:HttpGet("https://pastebin.com/raw/0hp7dfch"))()
+    if state then
 
-end)
+        loadstring(game:HttpGet("https://pastebin.com/raw/0hp7dfch"))()
 
-KillingCheats:CreateButton("Neonblock OFF", function()
+    else
 
-loadstring(game:HttpGet("https://pastebin.com/raw/cz0YC55e"))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/cz0YC55e"))()
 
-end)
-
-local KillingCheats = PhantomForcesWindow:NewSection("Inf Toy Block")
-
-KillingCheats:CreateButton("Inf ToyBlock ON", function()
-
-loadstring(game:HttpGet("https://pastebin.com/raw/ECHKNycp"))()
+    end
 
 end)
 
-KillingCheats:CreateButton("Inf ToyBlock OFF", function()
+KillingCheats:CreateToggle("ToyBlock", function(state)
 
-loadstring(game:HttpGet("https://pastebin.com/raw/cgSLBcCU"))()
+    if state then
+
+        loadstring(game:HttpGet("https://pastebin.com/raw/ECHKNycp"))()
+
+    else
+
+        loadstring(game:HttpGet("https://pastebin.com/raw/cgSLBcCU"))()
+
+    end
 
 end)
 
@@ -114,15 +118,31 @@ loadstring(game:HttpGet("https://pastebin.com/raw/PXrLiws7"))()
 
 end)
 
-local PhantomForcesWindow = Library:NewWindow("CREDITS")
+local PhantomForcesWindow = Library:NewWindow("OLD EVENT PLACE")
 
-local KillingCheats = PhantomForcesWindow:NewSection("Exy#7456")
+local KillingCheats = PhantomForcesWindow:NewSection("Event Server Hop")
 
-local KillingCheats = PhantomForcesWindow:NewSection("Wizard Lib")
+KillingCheats:CreateButton("HALLOWEEN", function()
+
+game:GetService("TeleportService"):Teleport(1930863474)
+
+end) 
+
+KillingCheats:CreateButton("XMAS", function()
+
+game:GetService("TeleportService"):Teleport(1930866268)
+
+end) 
+
+KillingCheats:CreateButton("EASTER", function()
+
+game:GetService("TeleportService"):Teleport(1930665568)
+
+end) 
 
 game.StarterGui:SetCore("SendNotification",  {
 
- Title = "Exy";
+ Title = "Credit : Exy#7456";
 
  Text = "Exy Is Handsome Man, Exy Sangat Gantenk";
 
@@ -137,4 +157,3 @@ game.StarterGui:SetCore("SendNotification",  {
  Callback = NotificationBindable;
 
 })
-
