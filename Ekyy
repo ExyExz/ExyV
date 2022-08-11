@@ -7,3 +7,7 @@ if UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled and no
 	loadstring(game:HttpGet("https://pastebin.com/raw/xBXigmeW"))()
 
 end
+
+local bb = game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()             bb:CaptureController()bb:ClickButton2(Vector2.new())    
+end)
