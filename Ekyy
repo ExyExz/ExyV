@@ -1,11 +1,9 @@
 local UserInputService = game:GetService("UserInputService")
 
 if UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled and not UserInputService.MouseEnabled then
-
-	loadstring(game:HttpGet("https://pastebin.com/raw/KnZmYDZL"))()elseif not UserInputService.TouchEnabled and UserInputService.KeyboardEnabled and UserInputService.MouseEnabled then
-
+	loadstring(game:HttpGet("https://pastebin.com/raw/KnZmYDZL"))()
+elseif not UserInputService.TouchEnabled and UserInputService.KeyboardEnabled and UserInputService.MouseEnabled then
 	loadstring(game:HttpGet("https://pastebin.com/raw/xBXigmeW"))()
-
 end
 
 local bb = game:service'VirtualUser'
