@@ -16,13 +16,13 @@ wait(1.2)
 
 game.StarterGui:SetCore("SendNotification", {
 
-Title = "AutoFarm & AntiAFK"; -- the title (ofc)
+Title = "AutoFarm & AntiAFK"; 
 
-Text = "YouTube : Ekusi CH                         Discord : Exy_Xyz"; -- what the text says (ofc)
+Text = "YouTube : Ekusi CH                         Discord : Exy_Xyz";
 
-Icon = "rbxassetid://9993553526"; -- the image if u want. 
+Icon = "rbxassetid://9993553526"; 
 
-Duration = 5; -- how long the notification should in secounds
+Duration = 5; 
 
 })
 
@@ -80,7 +80,7 @@ while _G.Busy do
 
     bodyVelocity.Parent = client.Character.HumanoidRootPart
 
-    for i = 1, 9 do
+    for i = 1, 7 do
 
         if not client.Character or not client.Character:FindFirstChild("Humanoid") then
 
