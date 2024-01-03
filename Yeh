@@ -4,7 +4,7 @@ game.StarterGui:SetCore("SendNotification", {
 
 Title = "AutoFarm & AntiAFK"; -- the title (ofc)
 
-Text = "YouTube : Ekusi CH                         Discord : Exy#7456"; -- what the text says (ofc)
+Text = "YouTube : Ekusi CH                         Discord : Exy_Xyz"; -- what the text says (ofc)
 
 Icon = "rbxassetid://9993553526"; -- the image if u want. 
 
@@ -18,7 +18,7 @@ game.StarterGui:SetCore("SendNotification", {
 
 Title = "AutoFarm & AntiAFK"; -- the title (ofc)
 
-Text = "YouTube : Ekusi CH                         Discord : Exy#7456"; -- what the text says (ofc)
+Text = "YouTube : Ekusi CH                         Discord : Exy_Xyz"; -- what the text says (ofc)
 
 Icon = "rbxassetid://9993553526"; -- the image if u want. 
 
@@ -30,13 +30,13 @@ wait(1.2)
 
 game.StarterGui:SetCore("SendNotification", {
 
-Title = "AutoFarm & AntiAFK"; -- the title (ofc)
+Title = "AutoFarm & AntiAFK"; 
 
-Text = "YouTube : Ekusi CH                         Discord : Exy#7456"; -- what the text says (ofc)
+Text = "YouTube : Ekusi CH                         Discord : Exy_Xyz"; 
 
-Icon = "rbxassetid://9993553526"; -- the image if u want. 
+Icon = "rbxassetid://9993553526"; 
 
-Duration = 5; -- how long the notification should in secounds
+Duration = 5; 
 
 })
 
